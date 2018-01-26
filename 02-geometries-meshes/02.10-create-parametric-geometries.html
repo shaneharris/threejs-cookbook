@@ -110,7 +110,7 @@
         directionalLight.position.set(-30, 50, 50);
         scene.add(directionalLight);
 
-        var geom = new THREE.ParametricGeometry(paramFunction5, 100, 100);
+        var geom = new THREE.ParametricGeometry(paramFunction4, 100, 100);
         var mat = new THREE.MeshPhongMaterial({color: 0xcc3333a, side: THREE.DoubleSide, shading: THREE.FlatShading});
         var mesh = new THREE.Mesh(geom, mat);
         mesh.name = 'param';
